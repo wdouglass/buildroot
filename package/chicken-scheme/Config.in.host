@@ -1,0 +1,5 @@
+config BR2_PACKAGE_HOST_CHICKEN_SCHEME
+       select BR2_PACKAGE_CHICKEN_SCHEME
+       bool "Host Chicken Scheme"
+	help
+	  The Chicken Scheme implementation.

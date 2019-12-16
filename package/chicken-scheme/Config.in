@@ -1,0 +1,5 @@
+config BR2_PACKAGE_CHICKEN_SCHEME
+       depends on BR2_aarch64
+       bool "Chicken Scheme"
+	help
+	  The Chicken Scheme implementation.

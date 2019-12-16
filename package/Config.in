@@ -570,6 +570,7 @@ menu "Interpreter languages and scripting"
 	source "package/4th/Config.in"
 	source "package/enscript/Config.in"
 	source "package/erlang/Config.in"
+	source "package/chicken-scheme/Config.in"
 if BR2_PACKAGE_ERLANG
 menu "Erlang libraries/modules"
 	source "package/erlang-eimp/Config.in"

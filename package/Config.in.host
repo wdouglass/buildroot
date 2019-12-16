@@ -79,5 +79,6 @@ menu "Host utilities"
 	source "package/xorriso/Config.in.host"
 	source "package/zip/Config.in.host"
 	source "package/zstd/Config.in.host"
+	source "package/chicken-scheme/Config.in.host"
 
 endmenu
